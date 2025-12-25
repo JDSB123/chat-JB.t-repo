@@ -1,0 +1,12 @@
+{
+  "name": "chat-jbt-ts",
+  "version": "1.0.0",
+  "description": "Multi-provider AI app with Azure Blob Storage",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "license": "MIT"
+}
